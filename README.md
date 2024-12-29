@@ -1,0 +1,1 @@
+This repository demonstrates a common mistake in Dockerfiles: using the latest tag for the base image. This can lead to unexpected behavior and security vulnerabilities as updates to the base image might break your application. The fix involves specifying a specific version of the base image.
